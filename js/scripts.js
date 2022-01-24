@@ -4,3 +4,7 @@ function Place(location, landmark, time, notes) {
   this.time = time;
   this.notes = notes;
 }
+
+Place.prototype.info = function() {
+  return this.location + ", " + this.landmark + ", " + this.time + ", " + this.notes;
+};

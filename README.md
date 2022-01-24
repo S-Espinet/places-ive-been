@@ -14,12 +14,16 @@
 
 ## Tests
 
-Description: Places()
+Description: Place()
 
 Test1: "It should return the object when it is called in the console."
 Code: let Berlin = new Place("Germany", "Berlin Wall", "2003", "language spoken: German")
 Expected Output: Berlin.location
 "Germany"
+
+Test2: "It should return the parameters of the object to the console."
+Code: Berlin.info();
+Expected Output: "Germany, Berlin Wall, 2003, language spoken: German"
 
 ## Description
 
